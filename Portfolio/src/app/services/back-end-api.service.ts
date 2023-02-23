@@ -9,7 +9,7 @@ import { environment } from 'src/environments/environment';
 })
 export class BackEndAPIService {
 
-  _url= `${environment.baseUrl}/about/about-info`
+  // _url= `${environment.baseUrl}/about/about-info`
   constructor(private _http: HttpClient) { }
   
   // submit(info : string) {
@@ -18,8 +18,8 @@ export class BackEndAPIService {
   
   getResponse(){
     return this._http
-    // .get(`${environment.baseUrl}/home`, {
-      .get(`http://localhost:8080/home`, {
+    .get(`${environment.baseUrl}/home`, {
+      // .get(`http://localhost:8081/home`, {
       withCredentials: true,
       observe: "response" as "body",
     })
