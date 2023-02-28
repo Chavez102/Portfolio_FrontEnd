@@ -10,9 +10,9 @@ pipeline {
                 sh "pwd" 
                 sh "ls"  
 
-                sh "if [ -d Portfolio ]; then rm -Rf Portfolio; fi"
-                sh "if [ -d Portfolio@tmp ]; then rm -Rf Portfolio@tmp; fi"
-                sh "if [ -d Portfolio_FrontEnd ]; then rm -Rf Portfolio_FrontEnd; fi"
+                // sh "if [ -d Portfolio ]; then rm -Rf Portfolio; fi"
+                // sh "if [ -d Portfolio@tmp ]; then rm -Rf Portfolio@tmp; fi"
+                // sh "if [ -d Portfolio_FrontEnd ]; then rm -Rf Portfolio_FrontEnd; fi"
                 // sh "if [ -d Portfolio_BackEnd ]; then rm -Rf Portfolio_BackEnd; fi" 
  
                 echo 'Clonning...' 
