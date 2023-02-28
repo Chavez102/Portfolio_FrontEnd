@@ -18,8 +18,7 @@ export class BackEndAPIService {
   
   getResponse(){
     return this._http
-    .get(`${environment.baseUrl}/home`, {
-      // .get(`http://localhost:8081/home`, {
+    .get(`${environment.baseUrl}/home`, { 
       withCredentials: true,
       observe: "response" as "body",
     })

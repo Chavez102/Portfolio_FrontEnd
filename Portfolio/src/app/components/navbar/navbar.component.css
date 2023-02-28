@@ -1,0 +1,18 @@
+#navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#navbar-options{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+h3{
+    margin: 0;
+}
