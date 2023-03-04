@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { BackEndAPIService } from 'src/app/services/back-end-api.service';
 
+
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
