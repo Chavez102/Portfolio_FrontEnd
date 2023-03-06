@@ -1,0 +1,68 @@
+#intro-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#welcome-header{
+    background-color: #52182E;
+    width:fit-content;
+
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+
+    border-radius: 3px;
+    font-weight: lighter; 
+}
+
+#text-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    
+}
+
+
+p{
+    width: 80%;
+}
+
+h1{
+    margin-bottom: 10px;
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+#summary-container{
+    background-color: #2A2344;
+    width: calc(100% + 20%); 
+    margin-left: -10%; 
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+
+#summary-box{ 
+    width: 10%;
+    /* border: 1px dashed #000;
+    border-style: dashed;
+    border-width: 1px;
+    border-spacing: 3px; */
+    width: 400px;
+    height: 400px;
+    /* dashed border */
+
+    background-image: url('../../../assets/images/dashedRectangle.png');
+    /* background-image: url('src/'); */
+    background-repeat: no-repeat;
+    
+    /* border-width: 1px;
+border-style: dashed;
+border-color: #C52F43;
+border-radius: 0px 40px 0px 0px; */
+
+ 
+}
