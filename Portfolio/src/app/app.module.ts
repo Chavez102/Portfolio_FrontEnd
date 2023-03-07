@@ -19,6 +19,7 @@ import { routingComponents } from './app-routing.module';
 import { PortfolioPageComponent } from './components/portfolio-page/portfolio-page.component';
 import { ContactMePageComponent } from './components/contact-me-page/contact-me-page.component';
 import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { NotFoundPageComponent } from './components/not-found-page/not-found-pag
     PortfolioPageComponent,
     ContactMePageComponent,
     NotFoundPageComponent,
+    FooterComponent,
     
   ],
   imports: [
