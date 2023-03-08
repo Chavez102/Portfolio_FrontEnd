@@ -5,7 +5,7 @@
     background-color: #2A2344;
     border-top: #5E596D solid;
     padding-top: 15px;
-    padding-bottom: 50px;
+    
 }
 
 .follow-me{
@@ -18,15 +18,15 @@
     display: flex;
     width: 70%;
     justify-content: space-around;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
   
 }
 
 .logo-container{
     
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 
     display: flex;
     justify-content: center;
@@ -46,13 +46,7 @@
 }
 
 .created-group{
-    width: 40%;
-    /* background-color: red; */
-
-    /* border-top-left-radius: 10px; */
-   
-    /* border-top: #ffffff solid; */
-  
+    width: 40%; 
     border-top: 2px solid #ffffff; /* change border color and width as needed */
     border-top-left-radius: 10px;
     border-width: 1px;
