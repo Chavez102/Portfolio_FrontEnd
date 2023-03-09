@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutMePageComponent } from './components/about-me-page/about-me-page.component';
-import { ContactMePageComponent } from './components/contact-me-page/contact-me-page.component';
-import { ExperiencePageComponent } from './components/experience-page/experience-page.component';
-import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
-import { PortfolioPageComponent } from './components/portfolio-page/portfolio-page.component';
+import { AboutMePageComponent } from './pages/about-me-page/about-me-page.component';
+import { ContactMePageComponent } from './pages/contact-me-page/contact-me-page.component';
+import { ExperiencePageComponent } from './pages/experience-page/experience-page.component';
+import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
+import { PortfolioPageComponent } from './pages/portfolio-page/portfolio-page.component';
 
 const routes: Routes = [
   { path: 'about-me', component: AboutMePageComponent },

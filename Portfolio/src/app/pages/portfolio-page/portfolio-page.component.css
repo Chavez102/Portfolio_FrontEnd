@@ -1,0 +1,33 @@
+.portfolio-page-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+ 
+} 
+h1{
+    font-size: 3em;
+    font-weight: lighter;
+    padding-bottom: 1%;
+}
+
+p{
+    width: 50%;
+}
+
+.projects-container{
+    margin-top: 5%; 
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+}
+
+.grid-item {
+    text-align: center;
+  }
+

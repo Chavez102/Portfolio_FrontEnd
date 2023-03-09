@@ -1,0 +1,22 @@
+.project-container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 200px;
+   
+}
+h1{
+    width: 50%;
+}
+p{
+    margin: 0;
+    width: 70%;
+    
+}
+
+.project-container:hover{
+    background-color: #C52F43 !important ;
+}
