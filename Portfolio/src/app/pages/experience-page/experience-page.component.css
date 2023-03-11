@@ -7,23 +7,17 @@
     margin-top: 3%;
 }
 
-#tittle{
+#title{
     font-size: 3em;
     font-weight: lighter;
     padding-bottom:1%;
 }
-#sub-tittle{
+#sub-title{
     text-align: center;
     width: 70%;
 }
 
-.grid-container > div {
-    /* background-color: #C52F43; */
-    /* text-align: center; */
-    /* padding: 20px 0;
-    font-size: 30px;  */
 
-  }
 
 .grid-container{
     width: 100%;

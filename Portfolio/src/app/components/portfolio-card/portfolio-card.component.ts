@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class PortfolioCardComponent implements OnInit {
   @Input() 
-  tittle:any;
+  title:any;
 
   @Input() 
   description:any;

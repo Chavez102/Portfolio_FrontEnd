@@ -4,13 +4,11 @@
     
     <div class="projects-container">
 
-        <app-portfolio-card class="grid-item" [color]="'#2F718D'" [tittle]=" 'Revature Social Media'" [description]= "'A social media app is an online platform that enables users to create and share content, connect with others.'" ></app-portfolio-card>
-        <app-portfolio-card class="grid-item" [color]="'#7C3669'" [tittle]=" 'Revature Social Media'" [description]= "'A social media app is an online platform that enables users to create and share content, connect with others.'" ></app-portfolio-card>
-        <app-portfolio-card class="grid-item" [color]="'#843737'" [tittle]=" 'Revature Social Media'" [description]= "'A social media app is an online platform that enables users to create and share content, connect with others.'" ></app-portfolio-card>
-        <app-portfolio-card class="grid-item" [color]="'#817A40'" [tittle]=" 'Revature Social Media'" [description]= "'A social media app is an online platform that enables users to create and share content, connect with others.'" ></app-portfolio-card>
-        <app-portfolio-card class="grid-item" [color]="'#52793A'" [tittle]=" 'Revature Social Media'" [description]= "'A social media app is an online platform that enables users to create and share content, connect with others.'" ></app-portfolio-card>
-        <app-portfolio-card class="grid-item" [color]="'#1A6267'" [tittle]=" 'Revature Social Media'" [description]= "'A social media app is an online platform that enables users to create and share content, connect with others.'" ></app-portfolio-card>
+        <app-portfolio-card class="grid-item"  *ngFor="let project of projects" [color]="project.color" [title]="project.title" [description]= "project.description">
+        </app-portfolio-card>
 
+   
+       
 
     </div>
     

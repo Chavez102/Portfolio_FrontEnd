@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
 
-    height: 200px;
+    height: 250px;
    
 }
 h1{
@@ -13,10 +13,12 @@ h1{
 }
 p{
     margin: 0;
-    width: 70%;
+    width: 80%;
     
 }
 
 .project-container:hover{
-    background-color: #C52F43 !important ;
+
+    filter: brightness(0.70) !important;
+    cursor: pointer;
 }

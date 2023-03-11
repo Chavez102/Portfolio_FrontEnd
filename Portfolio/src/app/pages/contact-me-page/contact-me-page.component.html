@@ -1,1 +1,73 @@
-<p>contact-me-page works!</p>
+<div class="contact-me-container">
+    <div class="info-container">
+        <h1>Contact Me</h1>
+        <p>Please  Do not hesitate to Contact Me, I am always open for new opportunities</p>
+        <p>Call Me</p>
+        <p>(631) 836 9808</p>
+
+
+
+        
+
+    </div>
+
+    <div class="message-me-container"> 
+        <div>
+
+            <h1>Message Me</h1>
+        </div>  
+            <div class="message-me-row">
+                <mat-form-field appearance="outline">
+                    <mat-label>Name</mat-label>
+                    <input matInput placeholder="Placeholder">
+                    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> 
+                </mat-form-field>
+             
+                <mat-form-field appearance="outline">
+                    <mat-label>Email</mat-label>
+                    <input matInput placeholder="Placeholder">
+                    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> 
+                </mat-form-field>
+                
+            </div>
+
+            <div class="message-me-row">
+
+                <mat-form-field appearance="outline">
+                    <mat-label>Phone</mat-label>
+                    <input matInput placeholder="Placeholder">
+                    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+                
+                </mat-form-field>
+
+                <mat-form-field appearance="outline">
+                    <mat-label>Location</mat-label>
+                    <input matInput placeholder="Placeholder">
+                    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+                 
+                </mat-form-field>
+
+            </div>
+
+            <div > 
+
+                <mat-form-field class="message-container" appearance="fill"    >
+                    <mat-label>Message</mat-label>
+                    <textarea matInput matTextareaAutosize="false" [ngStyle]="{'resize': 'none'}"></textarea>
+                </mat-form-field>
+              
+                
+            </div>
+
+            <div class="submit-btn-container">
+              
+                <button mat-raised-button color="submit-btn"> Submit </button> 
+              
+            </div>
+
+       
+           
+        
+    </div>
+
+</div>
