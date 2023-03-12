@@ -4,14 +4,65 @@
     margin-left: 10%;
     margin-right: 10%;
     
-    padding-bottom: 30%;
+    padding-bottom: 10%;
+  
+    margin-top: 3%;
     
 }
 
-.info-container{
-    width: 40%;
-    background-color: red;
+h1{
+    font-size: 3em;
+    font-weight: lighter;
+    padding-bottom: 1%;
 }
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+
+.info-label{
+    margin-bottom: 5px;
+}
+
+.info-details{
+    margin-bottom: 0px;
+    margin-left: 3px;
+}
+
+
+.mat-icon-design{
+    background-color: #C52F43;
+    color: #fff;
+    cursor:default;
+}
+
+.icons-container{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+
+.icon-inner-container-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 30px;
+ 
+}
+
+.icon-inner-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ 
+}
+
+
 
 .message-me-container{
     width: 40%;
@@ -23,9 +74,14 @@
 
 }
 
+mat-form-field{
+    width: 48%;
+}
+
 .message-me-row{
     display: flex;
     justify-content: space-between;
+    
 }
 .mat-submit-btn{
     background-color: #C52F43;
@@ -33,7 +89,7 @@
 }
 .submit-btn-container{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 
